@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>AnyCPU;x64</Platforms>
+
+    <DisableWinExeOutputInference>true</DisableWinExeOutputInference>
+
+    <ApplicationIcon />
+
+    <StartupObject />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalorieTracker\CalorieTracker.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="InteractiveGUI">
+      <HintPath>..\..\InteractiveGUI\InteractiveGUI\bin\x64\Release\net5.0-windows\InteractiveGUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

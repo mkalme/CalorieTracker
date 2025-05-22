@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalorieTracker", "CalorieTracker\CalorieTracker.csproj", "{959CA155-772D-4000-89AC-E55E0250CACC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalorieTrackerGUI", "CalorieTrackerGUI\CalorieTrackerGUI.csproj", "{E67F36B4-8AED-414F-8E50-806114C11CB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{959CA155-772D-4000-89AC-E55E0250CACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959CA155-772D-4000-89AC-E55E0250CACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959CA155-772D-4000-89AC-E55E0250CACC}.Debug|x64.ActiveCfg = Debug|x64
+		{959CA155-772D-4000-89AC-E55E0250CACC}.Debug|x64.Build.0 = Debug|x64
+		{959CA155-772D-4000-89AC-E55E0250CACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959CA155-772D-4000-89AC-E55E0250CACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959CA155-772D-4000-89AC-E55E0250CACC}.Release|x64.ActiveCfg = Release|x64
+		{959CA155-772D-4000-89AC-E55E0250CACC}.Release|x64.Build.0 = Release|x64
+		{E67F36B4-8AED-414F-8E50-806114C11CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67F36B4-8AED-414F-8E50-806114C11CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67F36B4-8AED-414F-8E50-806114C11CB2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E67F36B4-8AED-414F-8E50-806114C11CB2}.Debug|x64.Build.0 = Debug|Any CPU
+		{E67F36B4-8AED-414F-8E50-806114C11CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67F36B4-8AED-414F-8E50-806114C11CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67F36B4-8AED-414F-8E50-806114C11CB2}.Release|x64.ActiveCfg = Release|x64
+		{E67F36B4-8AED-414F-8E50-806114C11CB2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6713768-46F1-4A98-9B54-4F5E3507E600}
+	EndGlobalSection
+EndGlobal
